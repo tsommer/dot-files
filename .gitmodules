@@ -13,3 +13,6 @@
 [submodule "files/.vim/bundle/textobj-rubyblock"]
 	path = files/.vim/bundle/textobj-rubyblock
 	url = https://github.com/nelstrom/vim-textobj-rubyblock.git
+[submodule "solarized"]
+	path = solarized
+	url = https://github.com/altercation/solarized.git
