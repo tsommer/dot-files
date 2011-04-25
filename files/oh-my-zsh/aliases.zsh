@@ -2,6 +2,7 @@ alias gf='git fetch'
 alias gr='git rebase'
 alias gm='git merge'
 alias ga='git add'
+alias gd='git diff | mate'
 
 alias rgm='ruby script/rails generate migration'
 
