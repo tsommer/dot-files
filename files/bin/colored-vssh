@@ -1,21 +1,23 @@
 #!/bin/bash
 
-set_opacity() {
-  local COLOR=$1
-  local OPACITY=$2
+set_color() {
+  local BG_COLOR=$1
+  local FG_COLOR=$2
+  local OPACITY=$3
 
   /usr/bin/osascript <<EOF
 tell application "iTerm"
    tell current session of current terminal
-      set background color to $COLOR
+      set background color to $BG_COLOR
+      set foreground color to $FG_COLOR
       set transparency to "$OPACITY"
    end tell
 end tell
 EOF
 }
 
-set_opacity "{0,0,0}" 0.1
+set_color "{0,0,0}" "{52428,52428,52428}" 0.05
 
 vagrant ssh
 
-set_opacity "{1000,7700,9900}" 0
+set_color "{1000,7700,9900}" "{28800,33500,34000}" 0
