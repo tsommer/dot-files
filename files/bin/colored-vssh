@@ -1,0 +1,21 @@
+#!/bin/bash
+
+set_opacity() {
+  local COLOR=$1
+  local OPACITY=$2
+
+  /usr/bin/osascript <<EOF
+tell application "iTerm"
+   tell current session of current terminal
+      set background color to $COLOR
+      set transparency to "$OPACITY"
+   end tell
+end tell
+EOF
+}
+
+set_opacity "{0,0,0}" 0.1
+
+vagrant ssh
+
+set_opacity "{1000,7700,9900}" 0
