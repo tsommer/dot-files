@@ -1,17 +1,7 @@
-// Settings in here override those in "Default/Base File.sublime-settings", and
-// are overridden in turn by file type specific settings. Place your settings
-// here, to ensure they're preserved when upgrading.
 {
-	// The number of spaces a tab is considered equal to
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (dark).tmTheme",
+	"tab_completion": true,
 	"tab_size": 2,
-
-	// Set to true to insert spaces when tab is pressed
 	"translate_tabs_to_spaces": true,
-
-  // Set to false for horizontal scrolling
-  "word_wrap": true,
-
-  // When false, tab will only trigger snippets or insert a tab character. Set
-  // it to true to make it insert the best matching completion from any source.
-  "tab_completion": true
+	"word_wrap": true
 }
