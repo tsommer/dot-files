@@ -1,2 +1,6 @@
---type-set=haml=.haml,feature=.feature
-
+--type-set=haml=.haml
+--type-set=feature=.feature
+--type-set=coffee=.coffee
+--type-set=mustache=.mustache
+--type-set=json=.json
+--type-set=scss=.scss
