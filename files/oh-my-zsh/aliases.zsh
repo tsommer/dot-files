@@ -10,6 +10,11 @@ alias vup='vagrant up'
 alias vdown='vagrant halt'
 alias vssh='/usr/local/bin/colored-vssh'
 
+function goto_project() {
+  cd ~/dev/$1
+}
+alias cdp='goto_project'
+
 function goto_project_and_up() {
   cd ~/dev/$1 && vup
 }
