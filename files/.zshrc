@@ -19,6 +19,7 @@ export ZSH_THEME="arrow2"
 plugins=(bundler gem git rails3)
 
 source $ZSH/oh-my-zsh.sh
+source ~/.dot-files/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 # Customize to your needs...
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin
