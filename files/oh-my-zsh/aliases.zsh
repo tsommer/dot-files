@@ -24,3 +24,9 @@ function goto_project_and_ssh() {
   cd ~/dev/$1 && vssh
 }
 alias pssh='goto_project_and_ssh'
+
+alias pta='pt assign'
+alias pts='pt start'
+alias ptf='pt finish'
+alias ptd='pt deliver'
+alias ptw='pt show'
