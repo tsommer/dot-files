@@ -6,6 +6,7 @@ alias gd='git diff | mate'
 
 alias rgm='ruby script/rails generate migration'
 
+alias v='vagrant'
 alias vup='vagrant up'
 alias vdown='vagrant halt'
 alias vssh='/usr/local/bin/colored-vssh'
