@@ -82,6 +82,5 @@ map <Up> gk
 filetype plugin indent on         " use the file type plugins
 
 " CtrlP
-"let g:ctrlp_map = '<D-p>'
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.log,*/.git/*
 
