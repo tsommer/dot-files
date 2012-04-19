@@ -79,7 +79,7 @@ map <Up> gk
 " Plugins
 "
 
-filetype plugin on                " use the file type plugins
+filetype plugin indent on         " use the file type plugins
 
 " CtrlP
 "let g:ctrlp_map = '<D-p>'
