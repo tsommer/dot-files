@@ -1,6 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/Users/tom/dev/cafeconcierge/.git'
 let g:netrw_dirhist_2='/Users/tom/dev/dma/config/cap-tasks'
 let g:netrw_dirhist_3='/Users/tom/dev/cafeconcierge'
 let g:netrw_dirhist_4='/Users/tom/.dot-files'
+let g:netrw_dirhist_5='/Users/tom/.dot-files/files'
