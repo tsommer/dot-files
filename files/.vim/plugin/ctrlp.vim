@@ -1,0 +1,1 @@
+../../../vim-plugins/ctrlp.vim/plugin/ctrlp.vim
