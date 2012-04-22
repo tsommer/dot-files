@@ -10,5 +10,11 @@ if has("gui_macvim")
   " remap Ack key
   macmenu &Edit.Find.Find\.\.\. key=<D-s-f>
   map <D-f> :Ack<space>
+
+  " map Command-/
+  map <D-/> <leader>cl
+
+  " map Command-r to delete all whitespace
+  map <D-r> :%s/\s\+$//<CR>
 endif
 

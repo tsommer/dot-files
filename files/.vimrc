@@ -10,13 +10,15 @@ set hlsearch            " highlight the last searched term
 set ignorecase          " searches are case insensitive ...
 set smartcase           " ... unless they contain at least one capital letter
 set showmatch		        " show matching brackets
-set nowrap		          " wrap lines
+set wrap		            " wrap lines
 set autoindent		      " indent at same level as last line
 set tabstop=2	          " backspace deletes a 'tab'
 set shiftwidth=2	      " a tab is 2 space
 set expandtab		        " use spaces not tabs
 set encoding=utf-8
- 
+let mapleader = ','     " remap map leader
+nnoremap ; :            " Make ; work like :
+
 " Appearance
 color solarized
 syntax on               " syntax highlighting
@@ -33,6 +35,7 @@ set listchars+=extends:>          " The character to show in the last column whe
                                   " off and the line continues beyond the right of the screen
 set listchars+=precedes:<         " The character to show in the last column when wrap is
                                   " off and the line continues beyond the right of the screen
+set list!
 
 " Misc
 autocmd BufReadPost *
