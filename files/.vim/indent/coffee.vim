@@ -1,0 +1,1 @@
+../../../vim-plugins/coffee-script.vim/indent/coffee.vim
