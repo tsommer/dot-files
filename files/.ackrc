@@ -4,3 +4,5 @@
 --type-set=mustache=.mustache
 --type-set=json=.json
 --type-set=scss=.scss
+--type-set=conf=.conf
+
