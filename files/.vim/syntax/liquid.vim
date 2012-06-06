@@ -1,0 +1,1 @@
+../../../vim-plugins/liquid.vim/syntax/liquid.vim

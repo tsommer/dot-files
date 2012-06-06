@@ -5,4 +5,5 @@
 --type-set=json=.json
 --type-set=scss=.scss
 --type-set=conf=.conf
+--type-set=cfg=.cfg
 
