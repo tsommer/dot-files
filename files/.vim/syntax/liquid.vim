@@ -1,1 +1,1 @@
-../../../vim-plugins/liquid.vim/syntax/liquid.vim
+../../../vim-plugins/liquid.vim.syntax/syntax/liquid.vim

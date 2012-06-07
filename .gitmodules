@@ -28,3 +28,9 @@
 [submodule "vim-plugins/nerdcommenter.vim"]
 	path = vim-plugins/nerdcommenter.vim
 	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "vim-plugins/liquid.vim"]
+	path = vim-plugins/liquid.vim
+	url = https://github.com/tpope/vim-liquid.git
+[submodule "vim-plugins/liquid.vim.syntax"]
+	path = vim-plugins/liquid.vim.syntax
+	url = https://github.com/vim-scripts/liquid.vim.git
