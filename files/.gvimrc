@@ -12,7 +12,7 @@ if has("gui_macvim")
   map <D-f> :Ack<space>
 
   " map Command-/
-  map <D-/> <leader>cl
+  map <D-/> <leader>ci
 
   " map Command-r to delete all whitespace
   map <D-r> :%s/\s\+$//<CR>
