@@ -2,6 +2,7 @@
 --type-set=feature=.feature
 --type-set=coffee=.coffee
 --type-set=mustache=.mustache
+--type-set=liquid=.liquid
 --type-set=json=.json
 --type-set=scss=.scss
 --type-set=conf=.conf
