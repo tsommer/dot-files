@@ -7,8 +7,9 @@ git pull &&
 git submodule update --init &&
 cd &&
 find .dot-files/files -maxdepth 1 | while read f; do
+  ([ "$f" == '.dot-files/files' ]) ||
   ([ "$f" == '.dot-files/files/oh-my-zsh' ]) ||
-	([ "$f" == '.dot-files/files/bin' ]) ||
+  ([ "$f" == '.dot-files/files/bin' ]) ||
   ln -vsf "$f" .
 done &&
 find .dot-files/files/oh-my-zsh/* -maxdepth 1 | while read f; do
