@@ -23,6 +23,7 @@ source ~/.dot-files/zsh-history-substring-search/zsh-history-substring-search.zs
 
 # Customize to your needs...
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin
+export EDITOR=vim
 
 # lets you search for running processes
 any() {
@@ -37,5 +38,10 @@ any() {
 }
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
-
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+# Start in project folder when possible
+if [ -d "/vagrant" ]; then
+  cd /vagrant
+fi
+
