@@ -31,3 +31,6 @@
 [submodule "vim-plugins/syntastic.vim"]
 	path = vim-plugins/syntastic.vim
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "vim-plugins/coffee-script.vim"]
+	path = vim-plugins/coffee-script.vim
+	url = https://github.com/kchmck/vim-coffee-script.git
