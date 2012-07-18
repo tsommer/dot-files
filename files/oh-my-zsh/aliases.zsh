@@ -31,3 +31,6 @@ alias pts='pt start'
 alias ptf='pt finish'
 alias ptd='pt deliver'
 alias ptw='pt show'
+
+alias fp='filepath'
+
