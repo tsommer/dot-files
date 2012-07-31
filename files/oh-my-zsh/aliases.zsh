@@ -3,6 +3,7 @@ alias gr='git rebase'
 alias gm='git merge'
 alias ga='git add'
 alias gd='git diff | mvim -R -f -'
+alias gcf='git clean -f'
 
 alias rgm='ruby script/rails generate migration'
 
