@@ -1,5 +1,8 @@
 [user]
 	name = Tom
-	email = tom@trikeapps.com
+	email = bballts14@gmx.de
 [github]
 	user = tsommer
+[merge]
+	tool = opendiff
+
