@@ -1,0 +1,1 @@
+../../../vim-plugins/slim.vim/syntax/slim.vim

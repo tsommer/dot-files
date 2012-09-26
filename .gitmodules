@@ -34,3 +34,6 @@
 [submodule "vim-plugins/coffee-script.vim"]
 	path = vim-plugins/coffee-script.vim
 	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "vim-plugins/slim.vim"]
+	path = vim-plugins/slim.vim
+	url = https://github.com/bbommarito/vim-slim.git
