@@ -1,9 +1,11 @@
-alias gf='git fetch'
-alias gr='git rebase'
-alias gm='git merge'
-alias ga='git add'
-alias gd='git diff | mvim -R -f -'
-alias gcf='git clean -f'
+alias gf='g fetch'
+alias gr='g rebase'
+alias gm='g merge'
+alias ga='g add'
+alias gpo='gp origin'
+alias gd='g diff | mvim -R -f -'
+alias gcf='g clean -f'
+alias grm='g rm'
 
 alias rgm='ruby script/rails generate migration'
 
@@ -19,6 +21,8 @@ alias vssh='/usr/local/bin/colored-vssh'
 alias m.='mvim .'
 
 alias a='ack'
+
+alias la='ls -al'
 
 function goto_project() {
   cd ~/dev/$1
