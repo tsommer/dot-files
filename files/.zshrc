@@ -45,3 +45,6 @@ if [ -d "/vagrant" ]; then
   cd /vagrant
 fi
 
+# Use vi mode in shell
+bindkey -v
+
