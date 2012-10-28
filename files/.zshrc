@@ -16,7 +16,7 @@ export ZSH_THEME="arrow2"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(bundler gem git rails3)
+plugins=(bundler gem git rails3 vi-mode history-substring-search)
 
 source $ZSH/oh-my-zsh.sh
 source ~/.dot-files/zsh-history-substring-search/zsh-history-substring-search.zsh
@@ -44,7 +44,4 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 if [ -d "/vagrant" ]; then
   cd /vagrant
 fi
-
-# Use vi mode in shell
-bindkey -v
 
