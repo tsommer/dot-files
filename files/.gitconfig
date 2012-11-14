@@ -6,3 +6,7 @@
 [merge]
 	tool = opendiff
 
+[help]
+	autocorrect = 1
+[color]
+	ui = 1

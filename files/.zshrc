@@ -45,3 +45,26 @@ if [ -d "/vagrant" ]; then
   cd /vagrant
 fi
 
+# Reminder about some git tricks
+echo "
+=================================
+
+  Git Reminders
+  -------------
+
+  g clone git@github.com/user/repo
+  gc --allow-empty
+  g show :/query
+  gco -                             go back
+  g branch --{no-}merged
+  g branch --contains 12345678
+  gco master -- path/to/file        copies file at master w/o switching branches
+  g log master ^stable              commits in master that aren't in stable
+  g blame -w                        ignore whitespace
+  g blame -M                        ignore moves within file
+  g blame -C                        ignore moves between files in same commit
+  g diff --word-diff
+  g shortlog -sn                    contributions of committers
+
+=================================
+"
