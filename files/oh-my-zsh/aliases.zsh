@@ -1,3 +1,5 @@
+alias g='hub'
+
 alias gst='g status -sb'
 alias gf='g fetch'
 alias gr='g rebase'
