@@ -47,24 +47,31 @@ fi
 
 # Reminder about some git tricks
 echo "
-=================================
+==================================================================
 
-  Git Reminders
-  -------------
+  $fg[cyan] Git Reminders
+  $reset_color---------------
 
-  g clone git@github.com/user/repo
-  gc --allow-empty
-  g show :/query
-  gco -                             go back
-  g branch --{no-}merged
-  g branch --contains 12345678
-  gco master -- path/to/file        copies file at master w/o switching branches
-  g log master ^stable              commits in master that aren't in stable
-  g blame -w                        ignore whitespace
-  g blame -M                        ignore moves within file
-  g blame -C                        ignore moves between files in same commit
-  g diff --word-diff
-  g shortlog -sn                    contributions of committers
+  $fg[cyan] g clone git@github.com/user/repo
+  $fg[cyan] gc --allow-empty
+  $fg[cyan] g show :/query
+  $fg[cyan] gco -
+      $reset_color go back
+  $fg[cyan] g branch --{no-}merged
+  $fg[cyan] g branch --contains 12345678
+  $fg[cyan] gco master -- path/to/file
+      $reset_color copies file at master w/o switching branches
+  $fg[cyan] g log master ^stable
+      $reset_color commits in master that aren't in stable
+  $fg[cyan] g blame -w
+      $reset_color ignore whitespace
+  $fg[cyan] g blame -M
+      $reset_color ignore moves within file
+  $fg[cyan] g blame -C
+      $reset_color ignore moves between files in same commit
+  $fg[cyan] g diff --word-diff
+  $fg[cyan] g shortlog -sn
+      $reset_color contributions of committers
 
-=================================
+==================================================================
 "
