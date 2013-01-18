@@ -47,31 +47,29 @@ fi
 
 # Reminder about some git tricks
 echo "
-==================================================================
+====================================================================================================
 
   $fg[cyan] Git Reminders
   $reset_color---------------
-
-  $fg[cyan] g clone git@github.com/user/repo
   $fg[cyan] gc --allow-empty
   $fg[cyan] g show :/query
-  $fg[cyan] gco -
-      $reset_color go back
+  $fg[cyan] gco -                       $reset_color go back
   $fg[cyan] g branch --{no-}merged
   $fg[cyan] g branch --contains 12345678
-  $fg[cyan] gco master -- path/to/file
-      $reset_color copies file at master w/o switching branches
-  $fg[cyan] g log master ^stable
-      $reset_color commits in master that aren't in stable
-  $fg[cyan] g blame -w
-      $reset_color ignore whitespace
-  $fg[cyan] g blame -M
-      $reset_color ignore moves within file
-  $fg[cyan] g blame -C
-      $reset_color ignore moves between files in same commit
+  $fg[cyan] gco master -- path/to/file  $reset_color copies file at master w/o switching branches
+  $fg[cyan] g log master ^stable        $reset_color commits in master that aren't in stable
+  $fg[cyan] g blame -w                  $reset_color ignore whitespace
+  $fg[cyan] g blame -M                  $reset_color ignore moves within file
+  $fg[cyan] g blame -C                  $reset_color ignore moves between files in same commit
   $fg[cyan] g diff --word-diff
-  $fg[cyan] g shortlog -sn
-      $reset_color contributions of committers
+  $fg[cyan] g shortlog -sn              $reset_color contributions of committers
 
-==================================================================
+  $fg[cyan] Vim Reminders
+  $reset_color---------------
+  $fg[cyan] ;                           $reset_color repeat last f/F search (, to go back)
+  $fg[cyan] ?<pattern>                  $reset_color search backwards (opposite /)
+  $fg[cyan] Ctrl-a / Ctrl-x             $reset_color increase / decrease next number
+  $fg[cyan] gu / gU                     $reset_color change to lower- / uppercase (guu / gUU in whole line)
+
+====================================================================================================
 "
