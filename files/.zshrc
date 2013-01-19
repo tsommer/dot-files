@@ -49,27 +49,30 @@ fi
 echo "
 ====================================================================================================
 
-  $fg[cyan] Git Reminders
-  $reset_color---------------
-  $fg[cyan] gc --allow-empty
-  $fg[cyan] g show :/query
-  $fg[cyan] gco -                       $reset_color go back
-  $fg[cyan] g branch --{no-}merged
-  $fg[cyan] g branch --contains 12345678
-  $fg[cyan] gco master -- path/to/file  $reset_color copies file at master w/o switching branches
-  $fg[cyan] g log master ^stable        $reset_color commits in master that aren't in stable
-  $fg[cyan] g blame -w                  $reset_color ignore whitespace
-  $fg[cyan] g blame -M                  $reset_color ignore moves within file
-  $fg[cyan] g blame -C                  $reset_color ignore moves between files in same commit
-  $fg[cyan] g diff --word-diff
-  $fg[cyan] g shortlog -sn              $reset_color contributions of committers
+  $fg[white]Vim Reminders                            $reset_color|   $fg[white]Git Reminders
+  $reset_color--------------------------------------------------------------------------------------
+  $fg[blue];                                        $reset_color|   $fg[blue]gc --allow-empty
+  $fg[cyan]  repeat last f/F search                 $reset_color|   $fg[blue]g show :/query
+  $fg[blue]?<pattern>                               $reset_color|   $fg[blue]gco -
+  $fg[cyan]  search backwards (opp /)               $reset_color|   $fg[cyan]  go back
+  $fg[blue]Ctrl-a/Ctrl-x                            $reset_color|   $fg[blue]g branch --{no-}merged
+  $fg[cyan]  increase/decrease number               $reset_color|   $fg[blue]g branch --contains 12345678
+  $fg[blue]gu/gU                                    $reset_color|   $fg[blue]gco master -- path/to/file
+  $fg[cyan]  change to lower-/uppercase             $reset_color|   $fg[cyan]  copies file at master w/o switching branches
+  $fg[cyan]  (guu/gUU for whole line)               $reset_color|   $fg[blue]g log master ^stable
+  $fg[blue]Ctrl-w/Ctrl-u                            $reset_color|   $fg[cyan]  commits in master that aren't in stable
+  $fg[cyan]  delete last word/line (insert mode)    $reset_color|   $fg[blue]g blame -w
+  $fg[blue]Ctrl-o                                   $reset_color|   $fg[cyan]  ignore whitespace
+  $fg[cyan]  Enter insert-normal-mode               $reset_color|   $fg[blue]g blame -M
+  $fg[blue]Ctrl-r<register>                         $reset_color|   $fg[cyan]  ignore moves within file
+  $fg[cyan]  paste in insert mode (= for expr)      $reset_color|   $fg[blue]g blame -C
+  $fg[blue]gv                                       $reset_color|   $fg[cyan]  ignore moves between files in same commit
+  $fg[cyan]  reselect the last visual selection     $reset_color|   $fg[blue]g diff --word-diff
+  $fg[blue]o                                        $reset_color|   $fg[blue]g shortlog -sn
+  $fg[cyan]  go to other end of visual selection    $reset_color|   $fg[cyan]  contributions of committers
+  $fg[blue]Ctrl-v<motion>$                          $reset_color|
+  $fg[cyan]  extend block selec to end of line      $reset_color|
 
-  $fg[cyan] Vim Reminders
-  $reset_color---------------
-  $fg[cyan] ;                           $reset_color repeat last f/F search (, to go back)
-  $fg[cyan] ?<pattern>                  $reset_color search backwards (opposite /)
-  $fg[cyan] Ctrl-a / Ctrl-x             $reset_color increase / decrease next number
-  $fg[cyan] gu / gU                     $reset_color change to lower- / uppercase (guu / gUU in whole line)
 
 ====================================================================================================
 "
