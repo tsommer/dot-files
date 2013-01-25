@@ -9,6 +9,7 @@ alias gpo='gp origin'
 alias gd='g diff | mvim -R -f -'
 alias gcf='g clean -f'
 alias grm='g rm'
+alias gg='git log --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit'
 
 alias rgm='ruby script/rails generate migration'
 
@@ -26,6 +27,7 @@ alias m.='mvim .'
 alias a='ack'
 
 alias la='ls -al'
+alias mcd='take'
 
 function goto_project() {
   cd ~/dev/$1
