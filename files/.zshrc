@@ -64,7 +64,8 @@ echo "
   $fg[cyan]  delete last word/line (insert mode)    $reset_color|   $fg[blue]:<range><command>
  $fg[blue] :t / :m                                  $reset_color|   $fg[cyan]  ranges: % ; 2,4 ; /start/-1,/end/+1
   $fg[cyan]  copy / move line(s)                    $reset_color|   $fg[blue]q: / q/
-  $fg[blue]                                         $reset_color|   $fg[cyan]  open history of commands / searches
+  $fg[blue]<operator>ae / <operator>ie              $reset_color|   $fg[cyan]  open history of commands / searches
+  $fg[cyan]  operate on complete file               $reset_color|
 
   $fg[white]Git Reminders
   $reset_color--------------------------------------------------------------------------------------
