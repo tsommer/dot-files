@@ -49,30 +49,35 @@ fi
 echo "
 ====================================================================================================
 
-  $fg[white]Vim Reminders                            $reset_color|   $fg[white]Git Reminders
+  $fg[white]Vim Reminders
   $reset_color--------------------------------------------------------------------------------------
-  $fg[blue];                                        $reset_color|   $fg[blue]gc --allow-empty
-  $fg[cyan]  repeat last f/F search                 $reset_color|   $fg[blue]g show :/query
-  $fg[blue]?<pattern>                               $reset_color|   $fg[blue]gco -
-  $fg[cyan]  search backwards (opp /)               $reset_color|   $fg[cyan]  go back
-  $fg[blue]Ctrl-a/Ctrl-x                            $reset_color|   $fg[blue]g branch --{no-}merged
-  $fg[cyan]  increase/decrease number               $reset_color|   $fg[blue]g branch --contains 12345678
-  $fg[blue]gu/gU                                    $reset_color|   $fg[blue]gco master -- path/to/file
-  $fg[cyan]  change to lower-/uppercase             $reset_color|   $fg[cyan]  copies file at master w/o switching branches
-  $fg[cyan]  (guu/gUU for whole line)               $reset_color|   $fg[blue]g log master ^stable
-  $fg[blue]Ctrl-w/Ctrl-u                            $reset_color|   $fg[cyan]  commits in master that aren't in stable
-  $fg[cyan]  delete last word/line (insert mode)    $reset_color|   $fg[blue]g blame -w
-  $fg[blue]Ctrl-o                                   $reset_color|   $fg[cyan]  ignore whitespace
-  $fg[cyan]  Enter insert-normal-mode               $reset_color|   $fg[blue]g blame -M
-  $fg[blue]Ctrl-r<register>                         $reset_color|   $fg[cyan]  ignore moves within file
-  $fg[cyan]  paste in insert mode (= for expr)      $reset_color|   $fg[blue]g blame -C
-  $fg[blue]gv                                       $reset_color|   $fg[cyan]  ignore moves between files in same commit
-  $fg[cyan]  reselect the last visual selection     $reset_color|   $fg[blue]g diff --word-diff
-  $fg[blue]o                                        $reset_color|   $fg[blue]g shortlog -sn
-  $fg[cyan]  go to other end of visual selection    $reset_color|   $fg[cyan]  contributions of committers
-  $fg[blue]Ctrl-v<motion>$                          $reset_color|
-  $fg[cyan]  extend block selec to end of line      $reset_color|
+  $fg[blue];                                        $reset_color|   $fg[blue]Ctrl-o
+  $fg[cyan]  repeat last f/F search                 $reset_color|   $fg[cyan]  Enter insert-normal-mode
+  $fg[blue]?<pattern>                               $reset_color|   $fg[blue]Ctrl-r<register>
+  $fg[cyan]  search backwards (opp /)               $reset_color|   $fg[cyan]  paste in insert mode (= for expr)
+  $fg[blue]Ctrl-a/Ctrl-x                            $reset_color|   $fg[blue]gv
+  $fg[cyan]  increase/decrease number               $reset_color|   $fg[cyan]  reselect the last visual selection
+  $fg[blue]gu/gU                                    $reset_color|   $fg[blue]o
+  $fg[cyan]  change to lower-/uppercase             $reset_color|   $fg[cyan]  go to other end of visual selection
+  $fg[cyan]  (guu/gUU for whole line)               $reset_color|   $fg[blue]Ctrl-v<motion>$
+  $fg[blue]Ctrl-w/Ctrl-u                            $reset_color|   $fg[cyan]  extend block selec to end of line
+  $fg[cyan]  delete last word/line (insert mode)    $reset_color|   $fg[blue]:<range><command>
+ $fg[blue] :t / :m                                  $reset_color|   $fg[cyan]  ranges: % ; 2,4 ; /start/-1,/end/+1
+  $fg[cyan]  copy / move line(s)                    $reset_color|   $fg[blue]q: / q/
+  $fg[blue]                                         $reset_color|   $fg[cyan]  open history of commands / searches
 
+  $fg[white]Git Reminders
+  $reset_color--------------------------------------------------------------------------------------
+  $fg[blue]gc --allow-empty                         $reset_color|   $fg[blue]g blame -w
+  $fg[blue]g show :/query                           $reset_color|   $fg[cyan]  ignore whitespace
+  $fg[blue]gco -                                    $reset_color|   $fg[blue]g blame -M
+  $fg[cyan]  go back                                $reset_color|   $fg[cyan]  ignore moves within file
+  $fg[blue]g branch --{no-}merged                   $reset_color|   $fg[blue]g blame -C
+  $fg[blue]g branch --contains 12345678             $reset_color|   $fg[cyan]  ignore moves between files
+  $fg[blue]gco master -- path/to/file               $reset_color|   $fg[blue]g diff --word-diff
+  $fg[cyan]  copy file at master to local           $reset_color|   $fg[blue]g shortlog -sn
+  $fg[blue]g log master ^stable                     $reset_color|   $fg[cyan]  contributions of committers
+  $fg[cyan]  commits in master not in stable        $reset_color|
 
 ====================================================================================================
 "
