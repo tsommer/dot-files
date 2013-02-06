@@ -22,7 +22,7 @@ source $ZSH/oh-my-zsh.sh
 source ~/.dot-files/zsh-history-substring-search/zsh-history-substring-search.zsh
 
 # Customize to your needs...
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/usr/X11/bin
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/git/bin:/usr/X11/bin
 export EDITOR=vim
 
 # lets you search for running processes
