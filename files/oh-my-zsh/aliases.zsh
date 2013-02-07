@@ -22,6 +22,8 @@ alias vup='vagrant up'
 alias vdown='vagrant halt'
 alias vssh='/usr/local/bin/colored-vssh'
 
+alias fs='foreman start'
+
 alias m.='mvim .'
 
 alias a='ack'
