@@ -46,3 +46,6 @@
 [submodule "vim-plugins/rails.vim"]
 	path = vim-plugins/rails.vim
 	url = https://github.com/tpope/vim-rails.git
+[submodule "vim-plugins/bundler.vim"]
+	path = vim-plugins/bundler.vim
+	url = https://github.com/tpope/vim-bundler.git

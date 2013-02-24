@@ -1,0 +1,1 @@
+../../../vim-plugins/bundler.vim/plugin/bundler.vim
