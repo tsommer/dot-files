@@ -65,7 +65,8 @@ echo "
  $fg[blue] :t / :m                                  $reset_color|   $fg[cyan]  ranges: % ; 2,4 ; /start/-1,/end/+1
   $fg[cyan]  copy / move line(s)                    $reset_color|   $fg[blue]q: / q/
   $fg[blue]<operator>ae / <operator>ie              $reset_color|   $fg[cyan]  open history of commands / searches
-  $fg[cyan]  operate on complete file               $reset_color|
+  $fg[cyan]  operate on complete file               $reset_color|   $fg[blue]:R
+                                           $reset_color|    $fg[cyan]  Switch between app file and spec
 
   $fg[white]Git Reminders
   $reset_color--------------------------------------------------------------------------------------
