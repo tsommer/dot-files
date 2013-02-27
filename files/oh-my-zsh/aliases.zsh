@@ -57,5 +57,6 @@ alias ptf='pt finish'
 alias ptd='pt deliver'
 alias ptw='pt show'
 
-alias fp='filepath'
+alias psx='ps auxww'
+alias dus='du -hs'
 
