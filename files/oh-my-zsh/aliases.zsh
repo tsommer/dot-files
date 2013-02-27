@@ -1,5 +1,10 @@
 alias g='hub'
 
+function git-branch-name {
+  git symbolic-ref HEAD | sed 's|.*/||'
+}
+alias gup='git fetch && git rebase -p origin/`git-branch-name`'
+
 alias gst='g status -sb'
 alias gf='g fetch'
 alias gr='g rebase'
