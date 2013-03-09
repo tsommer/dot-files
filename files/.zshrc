@@ -51,31 +51,25 @@ $reset_color====================================================================
 
   $fg[white]Vim Reminders
   $reset_color--------------------------------------------------------------------------------------
-  $fg[blue];                                        $reset_color|   $fg[blue]q: / q/
-  $fg[cyan]  repeat last f/F search                 $reset_color|   $fg[cyan]  open history of commands / searches
-  $fg[blue]?<pattern>                               $reset_color|   $fg[blue]Ctrl-r<register>
-  $fg[cyan]  search backwards (opp /)               $reset_color|   $fg[cyan]  paste in insert mode (= for expr)
-  $fg[blue]Ctrl-a/Ctrl-x                            $reset_color|   $fg[blue]gv
-  $fg[cyan]  increase/decrease number               $reset_color|   $fg[cyan]  reselect the last visual selection
-  $fg[blue]gu/gU                                    $reset_color|   $fg[blue]o
-  $fg[cyan]  change to lower-/uppercase             $reset_color|   $fg[cyan]  go to other end of visual selection
-  $fg[cyan]  (guu/gUU for whole line)               $reset_color|   $fg[blue]:R
-  $fg[blue]<operator>ae / <operator>ie              $reset_color|    $fg[cyan]  Switch between app file and spec
-  $fg[cyan]  operate on complete file               $reset_color|
-
+  $fg[blue]?<pattern>                               $reset_color|   $fg[blue]q: / q/                                 
+  $fg[cyan]  search backwards (opp /)               $reset_color|   $fg[cyan]  open history of commands / searches   
+  $fg[blue]:YRShow                                  $reset_color|   $fg[blue]o
+  $fg[cyan]  Open Yank Ring list                    $reset_color|   $fg[cyan]  go to other end of visual selection
+  $fg[blue]Ctrl-P / Ctrl-N                          $reset_color|   $fg[blue]:R
+  $gf[cyan]  Cycle through yanks in ring            $reset_color|   $fg[cyan]  Switch between app file and spec
+  $fg[blue]gu/gU | guu/gUU
+  $fg[cyan]  change word/line to lower-/uppercase             
+  
   $fg[white]Git Reminders
   $reset_color--------------------------------------------------------------------------------------
   $fg[blue]gc --allow-empty                         $reset_color|   $fg[blue]g blame -w
   $fg[blue]g show :/query                           $reset_color|   $fg[cyan]  ignore whitespace
-  $fg[blue]g branch --{no-}merged                   $reset_color|   $fg[blue]g blame -C
-  $fg[blue]g branch --contains 12345678             $reset_color|   $fg[cyan]  ignore moves between files
-  $fg[blue]gco master -- path/to/file               $reset_color|   $fg[blue]g log master ^stable
-  $fg[cyan]  copy file at master to local           $reset_color|    $fg[cyan]  commits in master not in stable
-  $fg[blue]g diff --word-diff                       $reset_color|
+  $fg[blue]gco master -- path/to/file               $reset_color|   $fg[blue]g diff --word-diff
+  $fg[cyan]  copy file at master to local           $reset_color|
 
   $fg[white]Aliases
   $reset_color--------------------------------------------------------------------------------------
-  $fg[blue]gup                                      $reset_color|   $fg[blue]mcd
+  $fg[blue]gac                                      $reset_color|   $fg[blue]mcd
   $fg[blue]psx                                      $reset_color|   $fg[blue]dus
 
 $reset_color====================================================================================================
