@@ -15,6 +15,7 @@ alias gd='g diff | mvim -R -f -'
 alias gcf='g clean -f'
 alias grm='g rm'
 alias gg='git log --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit'
+alias gac='ga . && gc'
 
 alias rgm='ruby script/rails generate migration'
 
