@@ -49,3 +49,6 @@
 [submodule "vim-plugins/bundler.vim"]
 	path = vim-plugins/bundler.vim
 	url = https://github.com/tpope/vim-bundler.git
+[submodule "vim-plugins/gitgutter.vim"]
+	path = vim-plugins/gitgutter.vim
+	url = https://github.com/airblade/vim-gitgutter.git
