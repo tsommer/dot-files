@@ -112,3 +112,6 @@ set wildignore+=*.swp,*~,._*
 set backupdir=~/.vim/_backup//    " where to put backup files.
 set directory=~/.vim/_swap//      " where to put swap files.
 
+" Set path for yank ring history
+let g:yankring_history_dir = '~/.vim'
+

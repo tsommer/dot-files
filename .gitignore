@@ -1,6 +1,7 @@
 files/.vim/.netrwhist
 files/.vim/_swap/*
 files/.vim/_backup/*
+files/.vim/yankring_history_v2.txt
 
 files/.maid/*.log
 
