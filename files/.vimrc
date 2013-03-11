@@ -115,3 +115,6 @@ set directory=~/.vim/_swap//      " where to put swap files.
 " Set path for yank ring history
 let g:yankring_history_dir = '~/.vim'
 
+" Make git gutter use same background as line numbers
+highlight clear SignColumn
+
