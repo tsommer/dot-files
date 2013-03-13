@@ -25,8 +25,12 @@ source ~/.dot-files/zsh-history-substring-search/zsh-history-substring-search.zs
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/sbin:/usr/local/git/bin:/usr/X11/bin
 export EDITOR=vim
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+# Load RVM into the shell session and add rvm to PATH
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+PATH=$PATH:$HOME/.rvm/bin
+
+# Load boxen env
+[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
 
 # lets you search for running processes
 any() {
