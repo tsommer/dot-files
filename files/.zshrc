@@ -55,25 +55,23 @@ $reset_color====================================================================
 
   $fg[white]Vim Reminders
   $reset_color--------------------------------------------------------------------------------------
-  $fg[blue]?<pattern>                               $reset_color|   $fg[blue]q: / q/                                 
-  $fg[cyan]  search backwards (opp /)               $reset_color|   $fg[cyan]  open history of commands / searches   
-  $fg[blue]:YRShow                                  $reset_color|   $fg[blue]o
-  $fg[cyan]  Open Yank Ring list                    $reset_color|   $fg[cyan]  go to other end of visual selection
-  $fg[blue]Ctrl-P / Ctrl-N                          $reset_color|   $fg[blue]:R
-  $gf[cyan]  Cycle through yanks in ring            $reset_color|   $fg[cyan]  Switch between app file and spec
-  $fg[blue]gu/gU | guu/gUU
-  $fg[cyan]  change word/line to lower-/uppercase             
-  
+  $fg[blue]gu/gU | guu/gUU                          $reset_color|   $fg[blue]q: / q/
+  $fg[cyan]  change word/line to lower-/uppercase   $reset_color|   $fg[cyan]  open history of commands / searches
+  $fg[blue]:R                                       $reset_color|   $fg[blue]o
+  $fg[cyan]  Switch between app file and spec       $reset_color|   $fg[cyan]  go to other end of visual selection
+ $fg[blue] :ls, [b, ]b, :b8, :bd                    $reset_color|   $fg[blue]:bufdo / :args
+ $fg[blue] :args *.txt                              $reset_color|   $fg[cyan]  execute command on all buffers, args
+  $fg[cyan]  Populate args list                     $reset_color|   $fg[blue]Crtl-w-s / Ctrl-w-w / ;c
+  $fg[blue]                                         $reset_color|   $fg[cyan]  Split / Cycle / Close
+
   $fg[white]Git Reminders
   $reset_color--------------------------------------------------------------------------------------
-  $fg[blue]gc --allow-empty                         $reset_color|   $fg[blue]g blame -w
-  $fg[blue]g show :/query                           $reset_color|   $fg[cyan]  ignore whitespace
+  $fg[blue]gc --allow-empty                         $reset_color|   $fg[blue]g show :/query
   $fg[blue]gco master -- path/to/file               $reset_color|   $fg[blue]g diff --word-diff
   $fg[cyan]  copy file at master to local           $reset_color|
 
   $fg[white]Aliases
   $reset_color--------------------------------------------------------------------------------------
-  $fg[blue]gac                                      $reset_color|   $fg[blue]mcd
   $fg[blue]psx                                      $reset_color|   $fg[blue]dus
 
 $reset_color====================================================================================================
