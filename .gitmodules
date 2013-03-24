@@ -55,3 +55,6 @@
 [submodule "vim-plugins/yankring.vim"]
 	path = vim-plugins/yankring.vim
 	url = https://github.com/vim-scripts/YankRing.vim.git
+[submodule "vim-plugins/unimpaired.vim"]
+	path = vim-plugins/unimpaired.vim
+	url = https://github.com/tpope/vim-unimpaired.git
