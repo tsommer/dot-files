@@ -59,9 +59,9 @@ $reset_color====================================================================
   $fg[cyan]  change word/line to lower-/uppercase   $reset_color|   $fg[cyan]  open history of commands / searches
   $fg[blue]:R                                       $reset_color|   $fg[blue]o
   $fg[cyan]  Switch between app file and spec       $reset_color|   $fg[cyan]  go to other end of visual selection
- $fg[blue] :ls, [b, ]b, :b8, :bd                    $reset_color|   $fg[blue]:bufdo / :args
+ $fg[blue] :ls, [b, ]b, :b8, :bd                    $reset_color|   $fg[blue]:bufdo / :argdo
  $fg[blue] :args *.txt                              $reset_color|   $fg[cyan]  execute command on all buffers, args
-  $fg[cyan]  Populate args list                     $reset_color|   $fg[blue]Crtl-w-s / Ctrl-w-w / ;c
+  $fg[cyan]  Populate args list                     $reset_color|   $fg[blue]Crtl-w-s / Ctrl-w-w / :c
   $fg[blue]                                         $reset_color|   $fg[cyan]  Split / Cycle / Close
 
   $fg[white]Git Reminders
