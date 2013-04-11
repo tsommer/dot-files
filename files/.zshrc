@@ -62,7 +62,8 @@ $reset_color====================================================================
  $fg[blue] :ls, [b, ]b, :b8, :bd                    $reset_color|   $fg[blue]:bufdo / :argdo
  $fg[blue] :args *.txt                              $reset_color|   $fg[cyan]  execute command on all buffers, args
   $fg[cyan]  Populate args list                     $reset_color|   $fg[blue]Crtl-w-s / Ctrl-w-w / :c
-  $fg[blue]                                         $reset_color|   $fg[cyan]  Split / Cycle / Close
+  $fg[blue]ci' / ca'                                $reset_color|   $fg[cyan]  Split / Cycle / Close
+  $fg[cyan]  Copy inside / outside quotes
 
   $fg[white]Git Reminders
   $reset_color--------------------------------------------------------------------------------------
