@@ -39,6 +39,8 @@ alias a='ack'
 alias la='ls -al'
 alias mcd='take'
 
+alias ctags='`brew --prefix`/bin/ctags'
+
 function goto_project() {
   cd ~/dev/$1
 }

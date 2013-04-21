@@ -55,25 +55,23 @@ $reset_color====================================================================
 
   $fg[white]Vim Reminders
   $reset_color--------------------------------------------------------------------------------------
-  $fg[blue]gu/gU | guu/gUU                          $reset_color|   $fg[blue]q: / q/
-  $fg[cyan]  change word/line to lower-/uppercase   $reset_color|   $fg[cyan]  open history of commands / searches
-  $fg[blue]:R                                       $reset_color|   $fg[blue]o
-  $fg[cyan]  Switch between app file and spec       $reset_color|   $fg[cyan]  go to other end of visual selection
  $fg[blue] :ls, [b, ]b, :b8, :bd                    $reset_color|   $fg[blue]:bufdo / :argdo
- $fg[blue] :args *.txt                              $reset_color|   $fg[cyan]  execute command on all buffers, args
-  $fg[cyan]  Populate args list                     $reset_color|   $fg[blue]Crtl-w-s / Ctrl-w-w / :c
   $fg[blue]ci' / ca'                                $reset_color|   $fg[cyan]  Split / Cycle / Close
-  $fg[cyan]  Copy inside / outside quotes
+  $fg[cyan]  Switch between app file and spec       $reset_color|  $fg[blue] :args *.txt
+  $fg[blue]Ctrl-] / Ctrl-t                          $reset_color|   $fg[cyan]  Populate args list
+  $fg[cyan]  Drill down / up within tags            $reset_color|   $fg[blue]Crtl-w-s / Ctrl-w-w / :c
+ $fg[blue] :tag method_name                         $reset_color|   $fg[cyan]  Split / Cycle / Close
+  $fg[cyan]  Look up method_name in tags            $reset_color|   $fg[blue]ci' / ca'
+  $fg[blue]                                         $reset_color|   $fg[cyan]  Change inside / outside quotes
 
   $fg[white]Git Reminders
   $reset_color--------------------------------------------------------------------------------------
   $fg[blue]gc --allow-empty                         $reset_color|   $fg[blue]g show :/query
-  $fg[blue]gco master -- path/to/file               $reset_color|   $fg[blue]g diff --word-diff
-  $fg[cyan]  copy file at master to local           $reset_color|
+  $fg[blue]g diff --word-diff
 
   $fg[white]Aliases
   $reset_color--------------------------------------------------------------------------------------
-  $fg[blue]psx                                      $reset_color|   $fg[blue]dus
+  $fg[blue]dus
 
 $reset_color====================================================================================================
 "
