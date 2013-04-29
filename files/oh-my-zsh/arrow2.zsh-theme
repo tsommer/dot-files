@@ -13,7 +13,7 @@ ZSH_THEME_GIT_PROMPT_SHA_BEFORE="%{$BLUE%}"
 function git_remote_status_with_counts() {
   remote=${$(git rev-parse --verify ${hook_com[branch]}@{upstream} --symbolic-full-name 2>/dev/null)/refs\/remotes\/}
 
-  if [[ -n ${remote} ]] ; then
+  if [[ -n ${remote} ]]; then
     ahead=$(git rev-list ${hook_com[branch]}@{upstream}..HEAD 2>/dev/null | wc -l)
     behind=$(git rev-list HEAD..${hook_com[branch]}@{upstream} 2>/dev/null | wc -l)
 
@@ -31,7 +31,13 @@ function git_remote_status_with_counts() {
 }
 
 function git_prompt() {
-  echo "%{$YELLOW%}[$(current_branch)%{$RESET%}@$(git_prompt_short_sha)$(git_remote_status_with_counts) $(parse_git_dirty)%{$YELLOW%}]"
+  ref=$(git symbolic-ref HEAD 2> /dev/null)
+
+  if [ -z $ref ]; then
+    echo ""
+  else
+    echo "%{$YELLOW%}[$(current_branch)%{$RESET%}@$(git_prompt_short_sha)$(git_remote_status_with_counts) $(parse_git_dirty)%{$YELLOW%}]"
+  fi
 }
 
 PROMPT='%{$CYAN%}%n%{$RESET%}@%{$CYAN%}%m %{$BLUE%}%c %{$CYAN%}➭ %{$RESET%} '
