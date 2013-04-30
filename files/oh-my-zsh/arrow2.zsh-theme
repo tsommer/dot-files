@@ -36,7 +36,7 @@ function git_prompt() {
   if [ -z $ref ]; then
     echo ""
   else
-    echo "%{$YELLOW%}[$(current_branch)%{$RESET%}@$(git_prompt_short_sha)$(git_remote_status_with_counts) $(parse_git_dirty)%{$YELLOW%}]"
+    echo "%{$YELLOW%}[$(current_branch)%{$RESET%}$(git_remote_status_with_counts) $(parse_git_dirty)%{$YELLOW%}]"
   fi
 }
 
