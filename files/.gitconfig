@@ -12,3 +12,5 @@
 	ui = 1
 [core]
 	excludesfile = ~/.gitignore
+[push]
+	default = simple
