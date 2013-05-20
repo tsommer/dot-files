@@ -18,6 +18,7 @@ alias gg='git log --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgree
 alias gac='ga . && gc'
 alias gash='g stash'
 alias gashp='g stash pop'
+alias gbd='g branch -d'
 
 alias rgm='ruby script/rails generate migration'
 
