@@ -1,1 +1,0 @@
-../../../vim-plugins/covim.vim/plugin/client.vim

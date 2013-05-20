@@ -58,6 +58,3 @@
 [submodule "vim-plugins/unimpaired.vim"]
 	path = vim-plugins/unimpaired.vim
 	url = https://github.com/tpope/vim-unimpaired.git
-[submodule "vim-plugins/covim.vim"]
-	path = vim-plugins/covim.vim
-	url = git://github.com/FredKSchott/CoVim.git
