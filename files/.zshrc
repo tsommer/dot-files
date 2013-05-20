@@ -23,7 +23,7 @@ source ~/.dot-files/zsh-history-substring-search/zsh-history-substring-search.zs
 
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
-export EDITOR=mvim
+export EDITOR="mvim -f"
 
 # Load RVM into the shell session and add rvm to PATH
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
