@@ -58,3 +58,6 @@
 [submodule "vim-plugins/unimpaired.vim"]
 	path = vim-plugins/unimpaired.vim
 	url = https://github.com/tpope/vim-unimpaired.git
+[submodule "vim-plugins/textobj-rubyblock.vim"]
+	path = vim-plugins/textobj-rubyblock.vim
+	url = https://github.com/nelstrom/vim-textobj-rubyblock.git

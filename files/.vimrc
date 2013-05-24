@@ -78,6 +78,10 @@ command -range=% NoMinus :<line1>,<line2>s/-%>/%>/g
 
 filetype plugin indent on         " use the file type plugins
 
+
+" Enable matchit plugin
+runtime macros/matchit.vim
+
 " CtrlP
 
 " Open selected file in new tab
