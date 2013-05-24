@@ -59,6 +59,8 @@ $reset_color====================================================================
   $fg[cyan]  Drill down / up within tags            $reset_color|   $fg[cyan]  Look up method_name in tags 
   $fg[blue]var / vir                                $reset_color|   $fg[blue]ar / ir
   $fg[cyan]  Select outside / inside ruby block     $reset_color|   $fg[cyan]  Drill down / up in selected ruby block
+ $fg[blue] :Abolish {despa}rat{e,ed} {despe}rat{}   $reset_color|  $fg[blue] :%S/facilit{y,ies}/building{,s}/g
+  $fg[cyan]  Generate common corrections            $reset_color|   $fg[cyan]  Substitute common occurances
 
   $fg[white]Git Reminders
   $reset_color--------------------------------------------------------------------------------------
