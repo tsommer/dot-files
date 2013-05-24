@@ -77,6 +77,11 @@ nmap <silent> gw :s/\(\%#\w\+\)\(\_W\+\)\(\w\+\)/\3\2\1/<CR>`'
 map <Down> gj
 map <Up> gk
 
+" Convert Ruby 1.8 hash to 1.9 syntax
+command -range=% To19 :<line1>,<line2>s/:\([^ ]\+\) \+=> \+/\1: /g
+
+" Convert -%> to %>
+command -range=% NoMinus :<line1>,<line2>s/-%>/%>/g
 
 "
 " Plugins
