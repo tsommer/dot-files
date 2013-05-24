@@ -1,0 +1,1 @@
+../../../vim-plugins/endwise.vim/plugin/endwise.vim
