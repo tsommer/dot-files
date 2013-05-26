@@ -14,3 +14,5 @@
 	excludesfile = ~/.gitignore
 [push]
 	default = simple
+[pre-commit]
+	checks = white_space, console_log, tabs, debugger, ruby_symbol_hashrockets, merge_conflict, migrations
