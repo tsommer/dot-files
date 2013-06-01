@@ -46,18 +46,12 @@
 [submodule "vim-plugins/rails.vim"]
 	path = vim-plugins/rails.vim
 	url = https://github.com/tpope/vim-rails.git
-[submodule "vim-plugins/bundler.vim"]
-	path = vim-plugins/bundler.vim
-	url = https://github.com/tpope/vim-bundler.git
 [submodule "vim-plugins/gitgutter.vim"]
 	path = vim-plugins/gitgutter.vim
 	url = https://github.com/airblade/vim-gitgutter.git
 [submodule "vim-plugins/yankring.vim"]
 	path = vim-plugins/yankring.vim
 	url = https://github.com/vim-scripts/YankRing.vim.git
-[submodule "vim-plugins/unimpaired.vim"]
-	path = vim-plugins/unimpaired.vim
-	url = https://github.com/tpope/vim-unimpaired.git
 [submodule "vim-plugins/textobj-rubyblock.vim"]
 	path = vim-plugins/textobj-rubyblock.vim
 	url = https://github.com/nelstrom/vim-textobj-rubyblock.git
