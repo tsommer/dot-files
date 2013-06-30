@@ -72,6 +72,8 @@ command -range=% To19 :<line1>,<line2>s/:\([^ ]\+\) \+=> \+/\1: /g
 " Convert -%> to %>
 command -range=% NoMinus :<line1>,<line2>s/-%>/%>/g
 
+cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
+
 "
 " Plugins
 "

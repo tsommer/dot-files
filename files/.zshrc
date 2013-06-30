@@ -55,12 +55,16 @@ $reset_color====================================================================
 
   $fg[white]Vim Reminders
   $reset_color--------------------------------------------------------------------------------------
-  $fg[blue]Ctrl-] / Ctrl-t                          $reset_color|  $fg[blue] :tag method_name             
-  $fg[cyan]  Drill down / up within tags            $reset_color|   $fg[cyan]  Look up method_name in tags 
+  $fg[blue]Ctrl-] / Ctrl-t                          $reset_color|  $fg[blue] :tag method_name
+  $fg[cyan]  Drill down / up within tags            $reset_color|   $fg[cyan]  Look up method_name in tags
   $fg[blue]var / vir                                $reset_color|   $fg[blue]ar / ir
   $fg[cyan]  Select outside / inside ruby block     $reset_color|   $fg[cyan]  Drill down / up in selected ruby block
  $fg[blue] :Abolish {despa}rat{e,ed} {despe}rat{}   $reset_color|  $fg[blue] :%S/facilit{y,ies}/building{,s}/g
   $fg[cyan]  Generate common corrections            $reset_color|   $fg[cyan]  Substitute common occurances
+  $fg[blue]gj / gk / g0 / g^ / g$                   $reset_color|   $fg[blue]e / ge
+  $fg[cyan]  Navigate on display lines              $reset_color|   $fg[cyan]  Forward / Backward to end current / previous word
+  $fg[blue]W                                        $reset_color|  $fg[blue] :tabe %%
+  $fg[cyan]  Advance to next WORD                   $reset_color|   $fg[cyan]  Open / Create file in current directory
 
   $fg[white]Git Reminders
   $reset_color--------------------------------------------------------------------------------------
