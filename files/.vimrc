@@ -9,28 +9,30 @@ set history=1000        " keep 1000 lines of history
 set hlsearch            " highlight the last searched term
 set ignorecase          " searches are case insensitive ...
 set smartcase           " ... unless they contain at least one capital letter
-set showmatch		        " show matching brackets
-set wrap		            " wrap lines
-set autoindent		      " indent at same level as last line
-set tabstop=2	          " backspace deletes a 'tab'
-set shiftwidth=2	      " a tab is 2 space
-set expandtab		        " use spaces not tabs
+set showmatch           " show matching brackets
+set wrap                " wrap lines
+set autoindent          " indent at same level as last line
+set tabstop=2           " backspace deletes a 'tab'
+set shiftwidth=2        " a tab is 2 space
+set expandtab           " use spaces not tabs
 set encoding=utf-8
 let mapleader = ','     " remap map leader
-nnoremap ; :            " Make ; work like :
 
 " Appearance
 color solarized
+let g:solarized_visibility = 'high'
+
 syntax on               " syntax highlighting
-set number		          " line numbers on
+
+set number              " line numbers on
 set ruler               " show the cursor position
-set guioptions-=T	      " hide toolbar
-set guioptions-=r	      " hide right scrollbar
+set guioptions-=T       " hide toolbar
+set guioptions-=r       " hide right scrollbar
 
 " List chars
 set listchars=""                  " Reset the listchars
 set listchars=tab:\ \             " a tab should display as "  ", trailing whitespace as "."
-set listchars+=trail:.            " show trailing spaces as dots
+set listchars+=trail:·            " show trailing spaces as dots
 set listchars+=extends:>          " The character to show in the last column when wrap is
                                   " off and the line continues beyond the right of the screen
 set listchars+=precedes:<         " The character to show in the last column when wrap is
@@ -57,7 +59,6 @@ if has("statusline") && !&cp
   set statusline+=[%b][0x%B]
 endif
 
-
 "
 " Mappings
 "
@@ -72,7 +73,11 @@ command -range=% To19 :<line1>,<line2>s/:\([^ ]\+\) \+=> \+/\1: /g
 " Convert -%> to %>
 command -range=% NoMinus :<line1>,<line2>s/-%>/%>/g
 
+" Map %% to current dir and expand immediately
 cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
+
+" Clear search highlighting with Escape
+nnoremap <esc> :noh<return><esc>
 
 "
 " Plugins
