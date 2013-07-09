@@ -72,8 +72,8 @@ $reset_color====================================================================
 
   $fg[white]Shell Reminders
   $reset_color--------------------------------------------------------------------------------------
-  $fg[blue]ff
-  $fg[cyan]  Fuzzy file find
+  $fg[blue]ff                                       $reset_color|   $fg[blue]<command> | colout <match> <colour>
+  $fg[cyan]  Fuzzy file find                        $reset_color|   $fg[cyan]  Highlight match in output
 
 $reset_color====================================================================================================
 "
