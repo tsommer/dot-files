@@ -61,3 +61,6 @@
 [submodule "vim-plugins/abolish.vim"]
 	path = vim-plugins/abolish.vim
 	url = https://github.com/tpope/vim-abolish.git
+[submodule "vim-plugins/you-complete-me.vim"]
+	path = vim-plugins/you-complete-me.vim
+	url = https://github.com/Valloric/YouCompleteMe
