@@ -64,3 +64,6 @@
 [submodule "vim-plugins/you-complete-me.vim"]
 	path = vim-plugins/you-complete-me.vim
 	url = https://github.com/Valloric/YouCompleteMe
+[submodule "vim-plugins/wakatime.vim"]
+	path = vim-plugins/wakatime.vim
+	url = https://github.com/wakatime/vim-wakatime.git
