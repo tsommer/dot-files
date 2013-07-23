@@ -1,1 +1,0 @@
-../../../vim-plugins/wakatime.vim/plugin/wakatime.vim
