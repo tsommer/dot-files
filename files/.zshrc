@@ -27,7 +27,7 @@ export EDITOR="mvim -f"
 
 # Load RVM into the shell session and add rvm to PATH
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-PATH=$PATH:$HOME/.rvm/bin
+export PATH=$PATH:$HOME/.rvm/bin
 
 # Load boxen env
 [ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
