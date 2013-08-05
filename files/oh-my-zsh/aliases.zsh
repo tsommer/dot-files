@@ -4,6 +4,7 @@ function git-branch-name {
   git symbolic-ref HEAD | sed 's|.*/||'
 }
 alias gup='git fetch && git rebase -p origin/`git-branch-name`'
+alias gpnew='git push -u origin `git-branch-name`'
 
 alias gst='g status -sb'
 alias gf='g fetch'
@@ -34,6 +35,7 @@ alias vssh='/usr/local/bin/colored-vssh'
 alias fs='foreman start'
 
 alias m.='mvim .'
+alias vi='vim'
 
 alias a='ack'
 

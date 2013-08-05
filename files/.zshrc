@@ -68,7 +68,8 @@ $reset_color====================================================================
 
   $fg[white]Git Reminders
   $reset_color--------------------------------------------------------------------------------------
-  $fg[blue]gc --allow-empty                         $reset_color|   $fg[blue]g diff --word-diff
+  $fg[blue]g diff --word-diff                       $reset_color|   $fg[blue]gpnew
+  $fg[cyan]                                         $reset_color|   $fg[cyan]  gp -u origin <current-branch>
 
   $fg[white]Shell Reminders
   $reset_color--------------------------------------------------------------------------------------
