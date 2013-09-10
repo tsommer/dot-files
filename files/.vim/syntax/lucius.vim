@@ -1,0 +1,1 @@
+../../../vim-plugins/haskell-templates.vim/syntax/lucius.vim

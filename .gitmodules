@@ -64,3 +64,6 @@
 [submodule "vim-plugins/you-complete-me.vim"]
 	path = vim-plugins/you-complete-me.vim
 	url = https://github.com/Valloric/YouCompleteMe
+[submodule "vim-plugins/haskell-templates.vim"]
+	path = vim-plugins/haskell-templates.vim
+	url = https://github.com/pbrisbin/html-template-syntax
