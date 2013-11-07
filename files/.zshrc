@@ -55,22 +55,8 @@ $reset_color====================================================================
 
   $fg[white]Vim Reminders
   $reset_color--------------------------------------------------------------------------------------
-  $fg[blue]var / vir                                $reset_color|   $fg[blue]ar / ir
-  $fg[cyan]  Select outside / inside ruby block     $reset_color|   $fg[cyan]  Drill down / up in selected ruby block
-  $fg[blue]gj / gk / g0 / g^ / g$                   $reset_color|   $fg[blue]e / ge
-  $fg[cyan]  Navigate on display lines              $reset_color|   $fg[cyan]  Forward / Backward to end current / previous word
-  $fg[blue]W                                        $reset_color|  $fg[blue] :tabe %%
-  $fg[cyan]  Advance to next WORD                   $reset_color|   $fg[cyan]  Open / Create file in current directory
-
-  $fg[white]Git Reminders
-  $reset_color--------------------------------------------------------------------------------------
-  $fg[blue]g diff --cached                          $reset_color|   $fg[blue]gpnew
-  $fg[cyan]  Diff already staged changes            $reset_color|   $fg[cyan]  gp -u origin <current-branch>
-
-  $fg[white]Shell Reminders
-  $reset_color--------------------------------------------------------------------------------------
-  $fg[blue]ff                                       $reset_color|   $fg[blue]<command> | colout <match> <colour>
-  $fg[cyan]  Fuzzy file find                        $reset_color|   $fg[cyan]  Highlight match in output
+  $fg[blue]Ctrl-r =                                 $reset_color|
+  $fg[cyan]  Insert expression (insert mode)        $reset_color|
 
 $reset_color====================================================================================================
 "
