@@ -58,6 +58,11 @@ $reset_color====================================================================
   $fg[blue]Ctrl-r =                                 $reset_color|
   $fg[cyan]  Insert expression (insert mode)        $reset_color|
 
+  $fg[white]Git Reminders
+  $reset_color--------------------------------------------------------------------------------------
+  $fg[blue]g log @                                  $reset_color|
+  $fg[cyan]  @ is an alias for HEAD                 $reset_color|
+
 $reset_color====================================================================================================
 "
 
