@@ -39,6 +39,10 @@ set listchars+=precedes:<         " The character to show in the last column whe
                                   " off and the line continues beyond the right of the screen
 set list!
 
+" Make the 81st column stand out
+highlight ColorColumn ctermbg=white
+set colorcolumn=81
+
 " Misc
 autocmd BufReadPost *
 \ if ! exists("g:leave_my_cursor_position_alone") |
