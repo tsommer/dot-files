@@ -55,8 +55,10 @@ $reset_color====================================================================
 
   $fg[white]Vim Reminders
   $reset_color--------------------------------------------------------------------------------------
-  $fg[blue]Ctrl-r =                                 $reset_color|
-  $fg[cyan]  Insert expression (insert mode)        $reset_color|
+  $fg[blue]Ctrl-r =                                 $reset_color|    $fg[blue]Ctrl-k
+  $fg[cyan]  Insert expression (insert mode)        $reset_color|    $fg[cyan]  Insert digraph (;digraphs)
+  $fg[blue];                                        $reset_color|
+  $fg[cyan]  Alias for :                            $reset_color|
 
   $fg[white]Git Reminders
   $reset_color--------------------------------------------------------------------------------------
