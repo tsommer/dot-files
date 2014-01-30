@@ -57,13 +57,10 @@ $reset_color====================================================================
   $reset_color--------------------------------------------------------------------------------------
   $fg[blue]Ctrl-r =                                 $reset_color|    $fg[blue]Ctrl-k
   $fg[cyan]  Insert expression (insert mode)        $reset_color|    $fg[cyan]  Insert digraph (;digraphs)
-  $fg[blue];                                        $reset_color|
-  $fg[cyan]  Alias for :                            $reset_color|
-
-  $fg[white]Git Reminders
-  $reset_color--------------------------------------------------------------------------------------
-  $fg[blue]g log @                                  $reset_color|
-  $fg[cyan]  @ is an alias for HEAD                 $reset_color|
+  $fg[blue];undol                                   $reset_color|    $fg[blue];undo #
+  $fg[cyan]  Show undo list                         $reset_color|    $fg[cyan]  Change to state # from undo list
+  $fg[blue]g+ / g-                                  $reset_color|
+  $fg[cyan]  Move forward / backward in undo list   $reset_color|
 
 $reset_color====================================================================================================
 "
