@@ -59,8 +59,8 @@ $reset_color====================================================================
   $fg[cyan]  Insert expression (insert mode)        $reset_color|    $fg[cyan]  Insert digraph (;digraphs)
   $fg[blue];undol                                   $reset_color|    $fg[blue];undo #
   $fg[cyan]  Show undo list                         $reset_color|    $fg[cyan]  Change to state # from undo list
-  $fg[blue]g+ / g-                                  $reset_color|
-  $fg[cyan]  Move forward / backward in undo list   $reset_color|
+  $fg[blue]g+ / g-                                  $reset_color|    $fg[blue];m9
+  $fg[cyan]  Move forward / backward in undo list   $reset_color|    $fg[cyan]  Move line of cursor to line 9
 
 $reset_color====================================================================================================
 "
