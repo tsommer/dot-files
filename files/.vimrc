@@ -83,8 +83,9 @@ cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
 " Clear search highlighting with Escape
 nnoremap <esc> :noh<return><esc>
 
-" Use ; as : alternative
+" Use ; instead of :
 nnoremap ; :
+map : <Nop>
 
 "
 "
