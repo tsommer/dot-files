@@ -64,6 +64,11 @@ $reset_color====================================================================
   $fg[blue];1:10 w( >>) file.txt                    $reset_color|    $fg[blue]<number>Ctrl-a / Ctrl-x
   $fg[cyan]  Write (append) lines 1-10 to file.txt  $reset_color|    $fg[cyan]  Increase / Decrease by number
 
+  $fg[white]Shell Reminders
+  $reset_color--------------------------------------------------------------------------------------
+  $fg[blue]massren
+  $fg[cyan]  Rename multiple files
+
 $reset_color====================================================================================================
 "
 
