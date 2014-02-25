@@ -69,6 +69,11 @@ $reset_color====================================================================
   $fg[blue]massren
   $fg[cyan]  Rename multiple files
 
+  $fg[white]Alfred Reminders
+  $reset_color--------------------------------------------------------------------------------------
+  $fg[blue]dash css:background
+  $fg[cyan]  Open documentation
+
 $reset_color====================================================================================================
 "
 
