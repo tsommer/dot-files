@@ -83,8 +83,12 @@ cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
 " Clear search highlighting with Escape
 nnoremap <esc> :noh<return><esc>
 
+" Close all tabs except the active one with Cmd-d
+nnoremap <D-d> :tabonly<return>
+
 " Use ; as : alternative
 nnoremap ; :
+
 
 "
 "
