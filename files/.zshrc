@@ -61,8 +61,8 @@ $reset_color====================================================================
   $fg[cyan]  Move forward / backward in undo list   $reset_color|    $fg[cyan]  Move line of cursor to line 9
   $fg[blue];1:10 w( >>) file.txt                    $reset_color|    $fg[blue]<number>Ctrl-a / Ctrl-x
   $fg[cyan]  Write (append) lines 1-10 to file.txt  $reset_color|    $fg[cyan]  Increase / Decrease by number
-  $fg[blue]Cmd-d
-  $fg[cyan]  Close other tabs
+  $fg[blue]Cmd-d                                    $reset_color|    $fg[blue]cx<motion> and cx<motion>
+  $fg[cyan]  Close other tabs                       $reset_color|    $fg[cyan]  Exchange texts
 
   $fg[white]Shell Reminders
   $reset_color--------------------------------------------------------------------------------------

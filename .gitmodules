@@ -67,3 +67,6 @@
 [submodule "vim-plugins/haskell-templates.vim"]
 	path = vim-plugins/haskell-templates.vim
 	url = https://github.com/pbrisbin/html-template-syntax
+[submodule "vim-plugins/exchange.vim"]
+	path = vim-plugins/exchange.vim
+	url = https://github.com/tommcdo/vim-exchange.git
