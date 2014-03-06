@@ -66,8 +66,8 @@ $reset_color====================================================================
 
   $fg[white]Shell Reminders
   $reset_color--------------------------------------------------------------------------------------
-  $fg[blue]massren
-  $fg[cyan]  Rename multiple files
+  $fg[blue]massren                                  $reset_color|    $fg[blue]hr
+  $fg[cyan]  Rename multiple files                  $reset_color|    $fg[cyan]  Print horizontal rule
 
   $fg[white]Alfred Reminders
   $reset_color--------------------------------------------------------------------------------------
