@@ -61,6 +61,8 @@ $reset_color====================================================================
   $fg[cyan]  Close other tabs                       $reset_color|    $fg[cyan]  Exchange texts
   $fg[blue]\"jy                                      $reset_color|    $fg[blue];reg
   $fg[cyan]  Yank into register j                   $reset_color|    $fg[cyan]  Show the list of registers
+  $fg[blue];%s/\<word\>//
+  $fg[cyan]  Match against whole word
 
   $fg[white]Shell Reminders
   $reset_color--------------------------------------------------------------------------------------
