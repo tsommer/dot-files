@@ -1,1 +1,0 @@
-../../../vim-plugins/gitgutter.vim/doc/gitgutter.txt

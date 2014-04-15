@@ -10,9 +10,6 @@
 [submodule "vim-plugins/ctrlp.vim"]
 	path = vim-plugins/ctrlp.vim
 	url = https://github.com/kien/ctrlp.vim.git
-[submodule "vim-plugins/ack.vim"]
-	path = vim-plugins/ack.vim
-	url = https://github.com/mileszs/ack.vim.git
 [submodule "vim-plugins/nerdcommenter.vim"]
 	path = vim-plugins/nerdcommenter.vim
 	url = https://github.com/scrooloose/nerdcommenter.git
@@ -46,9 +43,6 @@
 [submodule "vim-plugins/rails.vim"]
 	path = vim-plugins/rails.vim
 	url = https://github.com/tpope/vim-rails.git
-[submodule "vim-plugins/gitgutter.vim"]
-	path = vim-plugins/gitgutter.vim
-	url = https://github.com/airblade/vim-gitgutter.git
 [submodule "vim-plugins/yankring.vim"]
 	path = vim-plugins/yankring.vim
 	url = https://github.com/vim-scripts/YankRing.vim.git
@@ -58,15 +52,9 @@
 [submodule "vim-plugins/endwise.vim"]
 	path = vim-plugins/endwise.vim
 	url = https://github.com/tpope/vim-endwise.git
-[submodule "vim-plugins/abolish.vim"]
-	path = vim-plugins/abolish.vim
-	url = https://github.com/tpope/vim-abolish.git
 [submodule "vim-plugins/you-complete-me.vim"]
 	path = vim-plugins/you-complete-me.vim
 	url = https://github.com/Valloric/YouCompleteMe
 [submodule "vim-plugins/haskell-templates.vim"]
 	path = vim-plugins/haskell-templates.vim
 	url = https://github.com/pbrisbin/html-template-syntax
-[submodule "vim-plugins/exchange.vim"]
-	path = vim-plugins/exchange.vim
-	url = https://github.com/tommcdo/vim-exchange.git
