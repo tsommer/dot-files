@@ -17,9 +17,13 @@ export ZSH_THEME="arrow2"
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
 plugins=(bundler gem git rails history-substring-search)
-
 source $ZSH/oh-my-zsh.sh
+
+# Load substring search and bind up and down keys
 source ~/.dot-files/zsh-history-substring-search/zsh-history-substring-search.zsh
+zmodload zsh/terminfo
+bindkey "$terminfo[kcuu1]" history-substring-search-up
+bindkey "$terminfo[kcud1]" history-substring-search-down
 
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
