@@ -59,14 +59,8 @@ $reset_color====================================================================
 
   $fg[white]Vim Reminders
   $reset_color--------------------------------------------------------------------------------------
-  $fg[blue];m9                                      $reset_color|    $fg[blue]<number>Ctrl-a / Ctrl-x
-  $fg[cyan]  Move line of cursor to line 9          $reset_color|    $fg[cyan]  Increase / Decrease by number
-  $fg[blue]Cmd-d                                    $reset_color|    $fg[blue]cx<motion> and cx<motion>
-  $fg[cyan]  Close other tabs                       $reset_color|    $fg[cyan]  Exchange texts
-  $fg[blue]\"jy                                      $reset_color|    $fg[blue];reg
-  $fg[cyan]  Yank into register j                   $reset_color|    $fg[cyan]  Show the list of registers
-  $fg[blue];%s/\<word\>//
-  $fg[cyan]  Match against whole word
+  $fg[blue]Cmd-d                                    $reset_color|
+  $fg[cyan]  Close other tabs                       $reset_color|
 
   $fg[white]Shell Reminders
   $reset_color--------------------------------------------------------------------------------------
