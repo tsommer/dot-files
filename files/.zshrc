@@ -59,8 +59,8 @@ $reset_color====================================================================
 
   $fg[white]Vim Reminders
   $reset_color--------------------------------------------------------------------------------------
-  $fg[blue]Cmd-d                                    $reset_color|
-  $fg[cyan]  Close other tabs                       $reset_color|
+  $fg[blue]Cmd-d                                    $reset_color|    $fg[blue]Ctrl-o / Ctrl-i
+  $fg[cyan]  Close other tabs                       $reset_color|    $fg[cyan]  Move backwards / forwards through jumps
 
   $fg[white]Shell Reminders
   $reset_color--------------------------------------------------------------------------------------
