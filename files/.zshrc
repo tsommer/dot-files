@@ -61,6 +61,8 @@ $reset_color====================================================================
   $reset_color--------------------------------------------------------------------------------------
   $fg[blue]Cmd-d                                    $reset_color|    $fg[blue]Ctrl-o / Ctrl-i
   $fg[cyan]  Close other tabs                       $reset_color|    $fg[cyan]  Move backwards / forwards through jumps
+  $fg[blue];%s/\d\+/\=str2float(submatch(0) * 2)/
+  $fg[cyan]  Multiply every number by 2
 
   $fg[white]Shell Reminders
   $reset_color--------------------------------------------------------------------------------------
