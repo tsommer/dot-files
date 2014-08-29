@@ -91,48 +91,53 @@ nnoremap ; :
 
 
 "
+" Plugins / Vundle
 "
-" Plugins
-"
+filetype off
 
-filetype plugin indent on         " use the file type plugins
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
+Plugin 'gmarik/Vundle.vim'
+
+call vundle#end()
+filetype plugin indent on
 
 " Enable matchit plugin
-runtime macros/matchit.vim
+"runtime macros/matchit.vim
 
 " CtrlP
 
 " Open selected file in new tab
-let g:ctrlp_prompt_mappings = {
-  \ 'AcceptSelection("e")': [],
-  \ 'AcceptSelection("t")': ['<cr>', '<c-m>'],
-  \ }
+"let g:ctrlp_prompt_mappings = {
+"  \ 'AcceptSelection("e")': [],
+"  \ 'AcceptSelection("t")': ['<cr>', '<c-m>'],
+"  \ }
 
 " Disable output and VCS files
-set wildignore+=*.o,*.out,*.obj,.git,*.rbc,*.rbo,*.class,.svn,*.gem
+"set wildignore+=*.o,*.out,*.obj,.git,*.rbc,*.rbo,*.class,.svn,*.gem
 
 " Disable archive files
-set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz
+"set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz
 
 " Ignore bundler and sass cache
-set wildignore+=*/vendor/gems/*,*/vendor/cache/*,*/.bundle/*,*/.sass-cache/*
+"set wildignore+=*/vendor/gems/*,*/vendor/cache/*,*/.bundle/*,*/.sass-cache/*
 
 " Disable temp and backup files
-set wildignore+=*.swp,*~,._*
+"set wildignore+=*.swp,*~,._*
 
 " Dragvisuals
-runtime plugin/dragvisuals.vim
+"runtime plugin/dragvisuals.vim
 
 " Use arrow keys to drag block around
-vmap  <expr>  <LEFT>   DVB_Drag('left')
-vmap  <expr>  <RIGHT>  DVB_Drag('right')
-vmap  <expr>  <DOWN>   DVB_Drag('down')
-vmap  <expr>  <UP>     DVB_Drag('up')
-vmap  <expr>  D        DVB_Duplicate()
+"vmap  <expr>  <LEFT>   DVB_Drag('left')
+"vmap  <expr>  <RIGHT>  DVB_Drag('right')
+"vmap  <expr>  <DOWN>   DVB_Drag('down')
+"vmap  <expr>  <UP>     DVB_Drag('up')
+"vmap  <expr>  D        DVB_Duplicate()
 
 " Remove any introduced trailing whitespace after moving...
-let g:DVB_TrimWS = 1
+"let g:DVB_TrimWS = 1
 
 
 "
@@ -143,8 +148,8 @@ set backupdir=~/.vim/_backup//    " where to put backup files.
 set directory=~/.vim/_swap//      " where to put swap files.
 
 " Set path for yank ring history
-let g:yankring_history_dir = '~/.vim'
+"let g:yankring_history_dir = '~/.vim'
 
 " Make git gutter use same background as line numbers
-highlight clear SignColumn
+"highlight clear SignColumn
 
