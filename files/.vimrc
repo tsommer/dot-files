@@ -101,32 +101,32 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 Plugin 'kien/ctrlp.vim'
+Plugin 'vim-scripts/YankRing.vim.git'
 
 call vundle#end()
 filetype plugin indent on
 
+" CtrlP: Open selected file in new tab
+let g:ctrlp_prompt_mappings = {
+  \ 'AcceptSelection("e")': [],
+  \ 'AcceptSelection("t")': ['<cr>', '<c-m>'],
+  \ }
+
+" CtrlP:
+" * Disable output and VCS files
+" * Disable archive files
+" * Ignore bundler and sass cache
+" * Disable temp and backup files
+set wildignore+=*.o,*.out,*.obj,.git,*.rbc,*.rbo,*.class,.svn,*.gem
+set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz
+set wildignore+=*/vendor/gems/*,*/vendor/cache/*,*/.bundle/*,*/.sass-cache/*
+set wildignore+=*.swp,*~,._*
+
+" YankRing: Set path for history
+let g:yankring_history_dir = '~/.vim'
+
 " Enable matchit plugin
 "runtime macros/matchit.vim
-
-" CtrlP
-
-" Open selected file in new tab
-"let g:ctrlp_prompt_mappings = {
-"  \ 'AcceptSelection("e")': [],
-"  \ 'AcceptSelection("t")': ['<cr>', '<c-m>'],
-"  \ }
-
-" Disable output and VCS files
-"set wildignore+=*.o,*.out,*.obj,.git,*.rbc,*.rbo,*.class,.svn,*.gem
-
-" Disable archive files
-"set wildignore+=*.zip,*.tar.gz,*.tar.bz2,*.rar,*.tar.xz
-
-" Ignore bundler and sass cache
-"set wildignore+=*/vendor/gems/*,*/vendor/cache/*,*/.bundle/*,*/.sass-cache/*
-
-" Disable temp and backup files
-"set wildignore+=*.swp,*~,._*
 
 " Dragvisuals
 "runtime plugin/dragvisuals.vim
@@ -148,9 +148,6 @@ filetype plugin indent on
 
 set backupdir=~/.vim/_backup//    " where to put backup files.
 set directory=~/.vim/_swap//      " where to put swap files.
-
-" Set path for yank ring history
-"let g:yankring_history_dir = '~/.vim'
 
 " Make git gutter use same background as line numbers
 "highlight clear SignColumn

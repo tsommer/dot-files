@@ -1,1 +1,0 @@
-../../../vim-plugins/yankring.vim/plugin/yankring.vim
