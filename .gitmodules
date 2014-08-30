@@ -49,3 +49,6 @@
 [submodule "vim-plugins/haskell-templates.vim"]
 	path = vim-plugins/haskell-templates.vim
 	url = https://github.com/pbrisbin/html-template-syntax
+[submodule "files/.vim/bundle/vundle.vim"]
+	path = files/.vim/bundle/vundle.vim
+	url = https://github.com/gmarik/Vundle.vim.git
