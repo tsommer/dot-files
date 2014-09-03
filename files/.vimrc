@@ -128,27 +128,12 @@ let g:yankring_history_dir = '~/.vim'
 " Enable matchit plugin
 "runtime macros/matchit.vim
 
-" Dragvisuals
-"runtime plugin/dragvisuals.vim
-
-" Use arrow keys to drag block around
-"vmap  <expr>  <LEFT>   DVB_Drag('left')
-"vmap  <expr>  <RIGHT>  DVB_Drag('right')
-"vmap  <expr>  <DOWN>   DVB_Drag('down')
-"vmap  <expr>  <UP>     DVB_Drag('up')
-"vmap  <expr>  D        DVB_Duplicate()
-
-" Remove any introduced trailing whitespace after moving...
-"let g:DVB_TrimWS = 1
-
+" Make git gutter use same background as line numbers
+"highlight clear SignColumn
 
 "
 " Backup and swap
 "
-
 set backupdir=~/.vim/_backup//    " where to put backup files.
 set directory=~/.vim/_swap//      " where to put swap files.
-
-" Make git gutter use same background as line numbers
-"highlight clear SignColumn
 
