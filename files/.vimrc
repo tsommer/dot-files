@@ -95,10 +95,10 @@ nnoremap ; :
 "
 filetype off
 
-set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/vundle
 call vundle#begin()
 
-Plugin 'gmarik/Vundle.vim'
+Plugin 'maljub01/vundle'
 
 Plugin 'kien/ctrlp.vim'
 Plugin 'vim-scripts/YankRing.vim.git'

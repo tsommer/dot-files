@@ -7,6 +7,6 @@
 [submodule "vim-plugins/you-complete-me.vim"]
 	path = vim-plugins/you-complete-me.vim
 	url = https://github.com/Valloric/YouCompleteMe
-[submodule "files/.vim/bundle/vundle.vim"]
-	path = files/.vim/bundle/vundle.vim
-	url = https://github.com/gmarik/Vundle.vim.git
+[submodule "files/.vim/bundle/vundle"]
+	path = files/.vim/bundle/vundle
+	url = https://github.com/maljub01/vundle
