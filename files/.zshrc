@@ -59,20 +59,8 @@ $reset_color====================================================================
 
   $fg[white]Vim Reminders
   $reset_color--------------------------------------------------------------------------------------
-  $fg[blue]Cmd-d                                    $reset_color|    $fg[blue]Ctrl-o / Ctrl-i
-  $fg[cyan]  Close other tabs                       $reset_color|    $fg[cyan]  Move backwards / forwards through jumps
-  $fg[blue];%s/\d\+/\=str2float(submatch(0) * 2)/
-  $fg[cyan]  Multiply every number by 2
-
-  $fg[white]Shell Reminders
-  $reset_color--------------------------------------------------------------------------------------
-  $fg[blue]massren                                  $reset_color|    $fg[blue]hr
-  $fg[cyan]  Rename multiple files                  $reset_color|    $fg[cyan]  Print horizontal rule
-
-  $fg[white]Alfred Reminders
-  $reset_color--------------------------------------------------------------------------------------
-  $fg[blue]dash css:background
-  $fg[cyan]  Open documentation
+  $fg[blue]Cmd-d                                    $reset_color|    $fg[blue]Crtl-Space
+  $fg[cyan]  Close other tabs                       $reset_color|    $fg[cyan]  Select snippet and cycle through options.
 
 $reset_color====================================================================================================
 "

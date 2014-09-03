@@ -31,3 +31,9 @@
 [submodule "files/.vim/bundle/YouCompleteMe"]
 	path = files/.vim/bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "files/.vim/bundle/ultisnips"]
+	path = files/.vim/bundle/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
+[submodule "files/.vim/bundle/vim-snippets"]
+	path = files/.vim/bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets.git

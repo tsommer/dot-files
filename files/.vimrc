@@ -108,6 +108,8 @@ Plugin 'godlygeek/tabular'
 Plugin 'tpope/vim-endwise'
 Plugin 'tpope/vim-rails'
 Plugin 'Valloric/YouCompleteMe' " cd ~/.vim/bundle/YouCompleteMe && ./install.sh
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 
 call vundle#end()
 filetype plugin indent on
@@ -130,6 +132,10 @@ set wildignore+=*.swp,*~,._*
 
 " YankRing: Set path for history
 let g:yankring_history_dir = '~/.vim'
+
+" Ultisnips: Trigger configuration
+let g:UltiSnipsExpandTrigger="<c-space>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
 
 " Enable matchit plugin
 runtime macros/matchit.vim
