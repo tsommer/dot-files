@@ -105,6 +105,8 @@ Plugin 'vim-scripts/YankRing.vim.git'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/syntastic'
 Plugin 'godlygeek/tabular'
+Plugin 'tpope/vim-endwise'
+Plugin 'tpope/vim-rails'
 
 call vundle#end()
 filetype plugin indent on
