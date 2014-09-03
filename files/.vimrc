@@ -131,6 +131,7 @@ let g:yankring_history_dir = '~/.vim'
 " Enable matchit plugin
 runtime macros/matchit.vim
 
+
 "
 " Backup and swap
 "
