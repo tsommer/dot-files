@@ -10,3 +10,24 @@
 [submodule "files/.vim/bundle/vundle"]
 	path = files/.vim/bundle/vundle
 	url = https://github.com/maljub01/vundle
+[submodule "files/.vim/bundle/ctrlp.vim"]
+	path = files/.vim/bundle/ctrlp.vim
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "files/.vim/bundle/YankRing.vim"]
+	path = files/.vim/bundle/YankRing.vim
+	url = https://github.com/vim-scripts/YankRing.vim.git
+[submodule "files/.vim/bundle/nerdcommenter"]
+	path = files/.vim/bundle/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
+[submodule "files/.vim/bundle/syntastic"]
+	path = files/.vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "files/.vim/bundle/tabular"]
+	path = files/.vim/bundle/tabular
+	url = https://github.com/godlygeek/tabular.git
+[submodule "files/.vim/bundle/vim-endwise"]
+	path = files/.vim/bundle/vim-endwise
+	url = https://github.com/tpope/vim-endwise.git
+[submodule "files/.vim/bundle/vim-rails"]
+	path = files/.vim/bundle/vim-rails
+	url = https://github.com/tpope/vim-rails.git
