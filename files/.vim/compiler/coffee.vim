@@ -1,1 +1,0 @@
-../../../vim-plugins/coffee-script.vim/compiler/coffee.vim

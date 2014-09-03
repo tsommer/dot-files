@@ -1,1 +1,0 @@
-../../../../vim-plugins/haskell-templates.vim/after/syntax/haskell.vim

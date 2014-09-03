@@ -1,1 +1,0 @@
-../../../vim-plugins/textobj-rubyblock.vim/doc/textobj-rubyblock.txt

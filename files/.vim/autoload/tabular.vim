@@ -1,1 +1,0 @@
-../../../vim-plugins/tabular.vim/autoload/tabular.vim

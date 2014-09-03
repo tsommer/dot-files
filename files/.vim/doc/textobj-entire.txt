@@ -1,1 +1,0 @@
-../../../vim-plugins/textobj-entire.vim/doc/textobj-entire.txt

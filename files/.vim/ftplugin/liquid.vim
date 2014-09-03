@@ -1,1 +1,0 @@
-../../../vim-plugins/liquid.vim/ftplugin/liquid.vim

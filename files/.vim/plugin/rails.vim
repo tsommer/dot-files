@@ -1,1 +1,0 @@
-../../../vim-plugins/rails.vim/plugin/rails.vim

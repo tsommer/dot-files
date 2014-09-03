@@ -1,1 +1,0 @@
-../../../vim-plugins/haskell-templates.vim/syntax/cassius.vim
