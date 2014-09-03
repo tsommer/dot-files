@@ -107,6 +107,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'godlygeek/tabular'
 Plugin 'tpope/vim-endwise'
 Plugin 'tpope/vim-rails'
+Plugin 'Valloric/YouCompleteMe' " cd ~/.vim/bundle/YouCompleteMe && ./install.sh
 
 call vundle#end()
 filetype plugin indent on
