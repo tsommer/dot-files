@@ -102,6 +102,9 @@ Plugin 'gmarik/Vundle.vim'
 
 Plugin 'kien/ctrlp.vim'
 Plugin 'vim-scripts/YankRing.vim.git'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/syntastic'
+Plugin 'godlygeek/tabular'
 
 call vundle#end()
 filetype plugin indent on
@@ -126,10 +129,7 @@ set wildignore+=*.swp,*~,._*
 let g:yankring_history_dir = '~/.vim'
 
 " Enable matchit plugin
-"runtime macros/matchit.vim
-
-" Make git gutter use same background as line numbers
-"highlight clear SignColumn
+runtime macros/matchit.vim
 
 "
 " Backup and swap
