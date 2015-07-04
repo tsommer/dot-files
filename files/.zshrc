@@ -54,14 +54,13 @@ if [ -d "/vagrant" ]; then
 fi
 
 # Reminder about some git tricks
-echo "
-$reset_color====================================================================================================
-
-  $fg[white]Vim Reminders
-  $reset_color--------------------------------------------------------------------------------------
-  $fg[blue]Cmd-d                                    $reset_color|    $fg[blue]Crtl-Space
-  $fg[cyan]  Close other tabs                       $reset_color|    $fg[cyan]  Select snippet and cycle through options.
-
-$reset_color====================================================================================================
-"
-
+#echo "
+#$reset_color====================================================================================================
+#
+#  $fg[white]Vim Reminders
+#  $reset_color--------------------------------------------------------------------------------------
+#  $fg[blue]Cmd-d                                    $reset_color|    $fg[blue]Crtl-Space
+#  $fg[cyan]  Close other tabs                       $reset_color|    $fg[cyan]  Select snippet and cycle through options.
+#
+#$reset_color====================================================================================================
+#"
