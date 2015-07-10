@@ -55,6 +55,9 @@ if [ -d "/vagrant" ]; then
   cd /vagrant
 fi
 
+# Load this alias last, because otherwise GitGui takes over
+alias gg='git log --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit'
+
 # Reminder about some git tricks
 #echo "
 #$reset_color====================================================================================================
