@@ -25,14 +25,7 @@ zmodload zsh/terminfo
 bindkey "$terminfo[kcuu1]" history-substring-search-up
 bindkey "$terminfo[kcud1]" history-substring-search-down
 
-# Load autosuggestions automatically
 source ~/.dot-files/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source ~/.dot-files/zsh-autosuggestions/autosuggestions.zsh
-
-zle-line-init() {
-    zle autosuggest-start
-}
-zle -N zle-line-init
 
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/git/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
