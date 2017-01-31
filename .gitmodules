@@ -16,27 +16,6 @@
 [submodule "files/.vim/bundle/nerdcommenter"]
 	path = files/.vim/bundle/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
-[submodule "files/.vim/bundle/syntastic"]
-	path = files/.vim/bundle/syntastic
-	url = https://github.com/scrooloose/syntastic.git
-[submodule "files/.vim/bundle/tabular"]
-	path = files/.vim/bundle/tabular
-	url = https://github.com/godlygeek/tabular.git
-[submodule "files/.vim/bundle/vim-endwise"]
-	path = files/.vim/bundle/vim-endwise
-	url = https://github.com/tpope/vim-endwise.git
-[submodule "files/.vim/bundle/vim-rails"]
-	path = files/.vim/bundle/vim-rails
-	url = https://github.com/tpope/vim-rails.git
-[submodule "files/.vim/bundle/YouCompleteMe"]
-	path = files/.vim/bundle/YouCompleteMe
-	url = https://github.com/Valloric/YouCompleteMe.git
-[submodule "files/.vim/bundle/ultisnips"]
-	path = files/.vim/bundle/ultisnips
-	url = https://github.com/SirVer/ultisnips.git
-[submodule "files/.vim/bundle/vim-snippets"]
-	path = files/.vim/bundle/vim-snippets
-	url = https://github.com/honza/vim-snippets.git
 [submodule "zsh-syntax-highlighting"]
 	path = zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting
