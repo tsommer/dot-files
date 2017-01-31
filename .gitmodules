@@ -7,9 +7,6 @@
 [submodule "files/.vim/bundle/vundle"]
 	path = files/.vim/bundle/vundle
 	url = https://github.com/maljub01/vundle
-[submodule "files/.vim/bundle/ctrlp.vim"]
-	path = files/.vim/bundle/ctrlp.vim
-	url = https://github.com/kien/ctrlp.vim.git
 [submodule "files/.vim/bundle/YankRing.vim"]
 	path = files/.vim/bundle/YankRing.vim
 	url = https://github.com/vim-scripts/YankRing.vim.git

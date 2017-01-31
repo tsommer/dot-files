@@ -100,7 +100,7 @@ call vundle#begin()
 
 Plugin 'maljub01/vundle'
 
-Plugin 'kien/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'vim-scripts/YankRing.vim.git'
 Plugin 'scrooloose/nerdcommenter'
 
