@@ -3,5 +3,6 @@ files/.vim/_swap/*
 files/.vim/_backup/*
 files/.vim/yankring_history_v2.txt
 
-files/.maid/*.log
-
+files/.vim/bundle/ctrlp.vim
+files/.vim/bundle/YankRing.vim/
+files/.vim/bundle/nerdcommenter/

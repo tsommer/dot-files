@@ -74,9 +74,6 @@ map <Up> gk
 " Convert Ruby 1.8 hash to 1.9 syntax
 command -range=% To19 :<line1>,<line2>s/:\([^ ]\+\) \+=> \+/\1: /g
 
-" Convert -%> to %>
-command -range=% NoMinus :<line1>,<line2>s/-%>/%>/g
-
 " Map %% to current dir and expand immediately
 cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
 
