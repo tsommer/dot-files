@@ -7,12 +7,6 @@
 [submodule "files/.vim/bundle/vundle"]
 	path = files/.vim/bundle/vundle
 	url = https://github.com/maljub01/vundle
-[submodule "files/.vim/bundle/YankRing.vim"]
-	path = files/.vim/bundle/YankRing.vim
-	url = https://github.com/vim-scripts/YankRing.vim.git
-[submodule "files/.vim/bundle/nerdcommenter"]
-	path = files/.vim/bundle/nerdcommenter
-	url = https://github.com/scrooloose/nerdcommenter.git
 [submodule "zsh-syntax-highlighting"]
 	path = zsh-syntax-highlighting
 	url = https://github.com/zsh-users/zsh-syntax-highlighting
